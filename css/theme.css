@@ -1,0 +1,13 @@
+[data-theme="dark"] {
+    --main-bg: rgb(18, 18, 18);
+    --main-nav: rgb(8, 8, 8);
+    --main-text: #FFF;
+    --main-button: rgb(100, 100, 100);
+}
+  
+[data-theme="light"] {
+    --main-bg: rgb(237, 237, 237);
+    --main-nav: rgb(213, 213, 213);
+    --main-text: rgb(39, 39, 39);
+    --main-button: rgb(113, 113, 113);
+}
