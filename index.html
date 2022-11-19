@@ -4,7 +4,7 @@
     <title>GOTY</title>
     <meta name="description" content="What Is Game Of The Year 2022?">
     <meta name="keywords" content="Game Of The Year GOTY">
-    <script src="./js/script.js"></script>
+    <script src="./js/navbar.js"></script>
 
     <!-- Custom Theme -->
     <link rel="stylesheet" href="./css/theme.css">
@@ -17,7 +17,17 @@
       <!-- Universal Nav bar -->
       <nav class="mainnav">
         <button id="ThemeChange" class="themechanger">☀️</button>
-        <a href="https://thegameawards.com/nominees/game-of-the-year" target="_blank">0:00 Until GOTY</a>
+        <!-- Hover / Drop down -->
+        <div class="dropdown">
+          <button class="dropbtn">Home</button>
+          <div class="dropdown-content">
+            <a href="/">About</a>
+            <a href="/">Link 2</a>
+            <a href="/">Link 3</a>
+          </div>
+        </div>
+
+        <a id="cdt" class="hover-underline-animation" href="https://thegameawards.com/" target="_blank">0:00 Until GOTY</a>
       </nav>
 
 

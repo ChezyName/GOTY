@@ -3,6 +3,8 @@
     --main-nav: rgb(8, 8, 8);
     --main-text: #FFF;
     --main-button: rgb(100, 100, 100);
+    --main-hover:rgb(124, 124, 124);
+    --main-dd: rgb(61, 61, 61);
 }
   
 [data-theme="light"] {
@@ -10,4 +12,6 @@
     --main-nav: rgb(213, 213, 213);
     --main-text: rgb(39, 39, 39);
     --main-button: rgb(113, 113, 113);
+    --main-hover: rgb(83, 83, 83);
+    --main-dd: rgb(177, 177, 177);
 }
