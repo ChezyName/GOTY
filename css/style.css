@@ -51,6 +51,7 @@ nav {
   margin-left: 0.5%;
   transition: all 2s ease-in-out;
   font-weight: bold;
+  top: 5%;
 }
 
 .hover-underline-animation {
@@ -77,19 +78,26 @@ nav {
   transform-origin: bottom left;
 }
 
+#split {
+  width: 0.5%;
+  height: 100%;
+  background-color: white;
+  float: left;
+}
+
 /* DROP DOWN MENU HERE */
 .dropbtn {
   background-color: transparent;
-  border: 1rem solid var(--main-text);
+  border: none;
   color: var(--main-text);
   font-weight: bold;
   font-size: 2rem;
-  border: none;
 }
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  float: left;
+  top: 25%;
 }
 
 .dropdown-content {
