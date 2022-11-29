@@ -1,0 +1,287 @@
+.main{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28, 41, 66);
+}
+
+
+@keyframes rainbowJR {
+    0%{
+        color: red
+    }
+    16%{
+        color: rgb(255, 0, 132)
+    }
+    32%{
+        color: rgb(83, 16, 114)
+    }
+    48%{
+        color: rgb(0, 166, 255)
+    }
+    64%{
+        color: rgb(83, 16, 114)
+    }
+    80%{
+        color: rgb(255, 0, 132)
+    }
+    100%{
+        color: red
+    }
+}
+
+.pullTag {
+    background-color: #fff;
+    position: absolute;
+    left: 37.5vw;
+    top: -12vh;
+    width: 25vw;
+    height: 15%;
+}
+
+.aboutMeT{
+    animation: rainbowJR infinite 12s;
+    width: 10vw;
+    height: 80%;
+    color: white;
+    font-family: monospace;
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bolder;
+    font-size: 8vh;
+    user-select: none;
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    margin: none;
+    padding: none;
+    transition: color 0.5s ease-in-out;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    display: inline-flex;
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    margin-left: 2vw;
+    left: 0;
+    position: absolute;
+}
+
+.mainT {
+    color:white;
+    user-select: none;
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    font-size: 5vmin;
+    line-height: 6vmin;
+}
+
+.mainT:hover{
+    color: white;
+}
+
+.aboutMeT:hover {
+    color: white;
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
+.carasoule{
+    width: 180%;
+    height: 5%;
+    background-color: var(--main-bg);
+    position: absolute;
+    right: 0%;
+    top: 0.5%;
+    animation: scroll 2 linear infinite;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;  
+}
+
+.Bcarasoule{
+    width: 200%;
+    height: 100%;
+    background-color: var(--main-bg);
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    animation: scroll 8 linear infinite;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 2px var(--main-text) solid;
+    border-top: 2px var(--main-text) solid;
+}
+
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(250px * 7))}
+}
+
+.bottomC {
+    top: 92%;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes Rscroll {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.slideTrack {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    animation: scroll infinite linear 8s;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+.slideTrack *{
+    width: fit-content;
+    height: 100%;
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: auto;
+    text-align: center;
+    vertical-align: center;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: fit-content;
+    animation: rainbow infinite 12s;
+    font-family: monospace;
+}
+
+
+/* ABOUT WHO I AM PART */
+.info{
+    width: 75%;
+    height: 75%;
+    position: relative;
+    top: -8.3%;
+    left: 25%;
+    background-color: rgb(66, 121, 180);
+    display: block;
+    border-radius: 25px 0px 0px 0px;
+    line-height: 1;
+}
+
+.info h1 {
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 7vw;
+    vertical-align: top;
+    user-select: none;
+}
+
+.infoH{
+    position: relative;
+    width: 100%;
+    height: 80;
+    padding: 5px;
+    user-select: none;
+    text-align: left;
+    top: -4%;
+}
+
+.infoH * {
+    color: white;
+    user-select: none;
+    margin-left: 3px;
+    font-size: fit-width;
+}
+
+.infoH *:hover {
+    color: white;
+}
+
+@keyframes rainbow {
+    0%{
+        color: red
+    }
+    16%{
+        color: orange
+    }
+    32%{
+        color: yellow
+    }
+    48%{
+        color: green
+    }
+    64%{
+        color: blue
+    }
+    80%{
+        color: purple
+    }
+    100%{
+        color: red
+    }
+}
+
+.JOAT{
+    animation: rainbow infinite 12s;
+}
+
+/* BIRTHDAY CSS PART */
+.BD {
+    width: 25%;
+    height: 10%;
+    background-color: rgb(66, 121, 180);
+    position: relative;
+    left: 15%;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+    border-radius: 25px;
+}
+
+.BD *{
+    height: 25%;
+}
